@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   # patch 'posts/:id', to: 'posts#update'
   # post 'posts', to: 'posts#create'
   resources :posts
+  root to: 'posts#index'
 end
